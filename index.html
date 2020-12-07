@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css">
+</head>
+<body>
+    <div class="header">
+        <h2 id="score" class="score"></h2>
+        <h2 id="high" class="score"></h2>
+    </div>
+    
+    <div class="background">
+        <button class="button" id="start" onclick="startGame()">Empezar juego</button>
+        <div class="game-container">
+            <div class="game_button--blue" id="blue" data-color='blue'></div>
+            <div class="game_button--yellow" id="yellow" data-color="yellow"></div>
+            <div class="game_button--pink" id="pink" data-color="pink"></div>
+            <div class="game_button--orange" id="orange" data-color="orange"></div>
+        </div>
+    </div>
+    
+    
+    <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="index.js"></script>
+</body>
+</html>

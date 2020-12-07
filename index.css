@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    font-family: 'VT323', monospace;
+}
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.background .game-container{
+    border-radius: 400px;
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    position: absolute;
+}
+
+.background .game-container .game_button--blue {
+    background-color: rgb(78, 78, 208);
+height: 50%;
+width: 50%;
+margin: 0px;
+}
+.background .game-container .game_button--yellow {
+    background-color: rgb(248, 219, 50);
+    height: 50%;
+    width: 50%;
+    margin: 0px;
+}
+.background .game-container .game_button--pink {
+    background-color: rgb(248, 131, 190);
+    height: 50%;
+    width: 50%;
+    margin: 0px;
+}
+.background .game-container .game_button--orange {
+    background-color: rgb(253, 104, 50);
+    height: 50%;
+    width: 50%;
+    margin: 0px;
+}
+.background .game-container .game_button--blue.light{
+    background-color: rgb(159, 159, 250);
+}
+.background .game-container .game_button--yellow.light{
+    background-color: rgb(247, 233, 156);
+}
+.background .game-container .game_button--pink.light{
+    background-color: rgb(245, 188, 216);
+}
+.background .game-container .game_button--orange.light{
+    background-color: rgb(253, 168, 137);
+}
+
+
+.background .game-container .game_button--blue.pointer{
+    cursor: pointer;
+}
+.background .game-container .game_button--yellow.pointer{
+    cursor: pointer;
+}
+.background .game-container .game_button--pink.pointer{
+    cursor: pointer;
+}
+.background .game-container .game_button--orange.pointer{
+    cursor: pointer;
+}
+
+.button{
+    cursor: pointer;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    border: none;
+    color: white;
+
+}
+
+.hide{
+    display: none;
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    position: absolute
+}
+.header .score{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
